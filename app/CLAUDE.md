@@ -40,6 +40,7 @@ These characteristics are desired from the LLM working on this prototype:
 
 ## Testing
 
+- This is a prototype and therefore does not need any programmatic tests.
 - The user is responsible for testing generated code by clicking around and inspecting the app
   - Guide the user on how they should test any new functionality with clear and simple instructions
 - Do not try to run the application - the user will do that.
