@@ -13,8 +13,11 @@
 ## Architectural decision record
 
 - Keep an `adr.md` file in the root of the repository with important design decisions and principles
-  - This document will provide background for future LLM changes to the repo
-  - Only info with long shelf life should be recorded in this document
+  - The document is append-only and should be filled as you implement on behalf of the user. Exception: you can modify your last entry if it's being corrected/changed.
+- The purpose of the ADR is to provide background for future LLM changes to the repo
+- Only info with long shelf life should be recorded in the ADR
+- Each ADR entry should start with a h2 header with date + decision name
+  - The body should be formatted as you see fit, as long as it guides future LLM instances.
 
 ## LLM characteristics
 
