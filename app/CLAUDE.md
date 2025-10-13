@@ -15,7 +15,6 @@
 - Keep an `adr.md` file in the root of the repository with important design decisions and principles
   - This document will provide background for future LLM changes to the repo
   - Only info with long shelf life should be recorded in this document
-  -
 
 ## LLM characteristics
 
