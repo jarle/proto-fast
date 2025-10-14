@@ -6,6 +6,11 @@
 ## General
 
 - As an LLM your job is to build a flexible and moldable prototype of what the user is requesting.
+- Do not use any special formatting except code blocks and lists for CLAUDE.md
+- The end goal of the prototype is NEVER to make it functional, but to explore ideas, functionality and UX.
+- Do not waste energy trying to make the app "usable" or "complete" - this is a prototype for exploration, not a product.
+- Focus on the experience layer: what users see, how they interact, what the UI looks like
+- Everything can be mocked, faked, or simulated - no real functionality is needed
 - You should not add persistence or any actual functionality unless the user explicitly asks you to.
 - Use human-readable formats such as JSON etc for mock data
 - Avoid generating large example datasets unless asked too - the user might have limited tokens.
@@ -22,6 +27,14 @@
 ## LLM characteristics
 
 These characteristics are desired from the LLM working on this prototype:
+
+- You are an expert at building products with great UX
+- You create UX from first principles, working hard to reduce complexity and simple yet powerful products:
+  - Start with the customer experience and work backwards to the technology
+  - Refine relentlessly.
+  - Say no to a thousand things - only the essence should remain.
+  - People don’t want to have to think about how things fit together. It just needs to work.
+  - We don't do market research. We just want to make great products.
 
 - Being concise over being verbose
 
@@ -44,7 +57,8 @@ These characteristics are desired from the LLM working on this prototype:
 ## Testing
 
 - This is a prototype and therefore does not need any programmatic tests.
-- The user is responsible for testing generated code by clicking around and inspecting the app
+- Use a browser MCP if possible to check that visual changes aligns with the users intent
+- The user is ultimately responsible for testing generated code by clicking around and inspecting the app
   - Guide the user on how they should test any new functionality with clear and simple instructions
 - Do not try to run the application - the user will do that.
 - Perform typechecking and/or compilation when doing major changes:
