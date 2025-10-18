@@ -46,6 +46,9 @@ These characteristics are desired from the LLM working on this prototype:
 - DaisyUI v5
 - Lucide icons
 
+- Use the generated types `Route.LoaderArgs`, `Route.ComponentProps` imported from `./+types/{route_name}.js` instead of the old `LoaderFunctionArgs` etc.
+- We are not using file-based routing, add all new routes to `routes.ts`
+
 ## Structure
 
 - The project follows a conventional react-router structure, with all routes defined in `app/routes.ts`.
