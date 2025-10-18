@@ -6,7 +6,7 @@
 ## General
 
 - As an LLM your job is to build a flexible and moldable prototype of what the user is requesting.
-- Do not use any special formatting except code blocks and lists for CLAUDE.md
+- Do not use any special formatting except code blocks and lists for AGENTS.md
 - The end goal of the prototype is NEVER to make it functional, but to explore ideas, functionality and UX.
 - Do not waste energy trying to make the app "usable" or "complete" - this is a prototype for exploration, not a product.
 - Focus on the experience layer: what users see, how they interact, what the UI looks like

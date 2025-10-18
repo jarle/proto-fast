@@ -40,7 +40,7 @@ Your application will be available at `http://localhost:5173`.
 
 ## Working with LLMs
 
-This project includes a [CLAUDE.md](CLAUDE.md) file with instructions for LLMs working on your prototype.
+This project includes an [AGENTS.md](AGENTS.md) file with instructions for LLMs working on your prototype.
 Key guidelines:
 
 - Keep route pages under 150 lines by splitting into logical components
