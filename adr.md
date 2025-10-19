@@ -46,4 +46,17 @@ app/
 - Easy to customize or completely replace
 - Demonstrates DaisyUI components in context
 - Provides 3 route patterns (index, content, list) to learn from
-- All files stay under 100 lines, following LLM optimization guidelines
+
+## 2025-02-14: Devcontainer Baseline
+
+### Context
+We want a repeatable local environment for rapid prototypes without forcing contributors to manage toolchains manually. The repo relies on Bun workflows alongside Node-based tooling.
+
+### Decision
+Add a minimal `.devcontainer/devcontainer.json` that reuses the standard `mcr.microsoft.com/devcontainers/typescript-node` image and installs Bun through the official devcontainer feature. The container runs `bun install` after creation and forwards port `5173` for Vite/React Router previews.
+
+### Consequences
+
+- Contributors get Bun, Node 20, and TypeScript tooling ready without extra setup.
+- The setup stays lightweight—no custom Dockerfile—so it is easy to tweak for future experiments.
+- Port forwarding makes the default dev server accessible immediately in the container.
