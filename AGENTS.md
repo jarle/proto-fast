@@ -57,6 +57,18 @@ These characteristics are desired from the LLM working on this prototype:
   - Proper type safety without using `any` or similar shortcuts. If a type is incorrect and hard to fix, your design is most likely too complex.
   - Types should be infered, inlined, and derived as much as possible. No type casting.
 
+## Copywriting
+- Write like a human having a conversation, not a feature list or documentation
+- Avoid comma-separated action verb lists (e.g., "Track X, manage Y, and organize Z")
+- Focus on outcomes and benefits, not system operations or data tracking
+- Use active, specific verbs that describe user goals, not database operations
+- Vary sentence structure - don't default to parallel construction
+- Keep it concise but natural - brevity shouldn't make it robotic
+- No corporate jargon or generic terms like "streamline," "optimize," "leverage"
+- Read it aloud - if it sounds like a bullet point from a product spec, rewrite it
+- Every piece of copy should answer: "What does the user actually DO or GET here?"
+- Default to simple, direct language over formal or technical phrasing
+
 ## Testing
 
 - This is a prototype and therefore does not need any programmatic tests.
