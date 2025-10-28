@@ -47,6 +47,8 @@ These characteristics are desired from the LLM working on this prototype:
 - Lucide icons
 
 - Use the generated types `Route.LoaderArgs`, `Route.ComponentProps` imported from `./+types/{route_name}.js` instead of the old `LoaderFunctionArgs` etc.
+- The Route component should not use `useLoaderData` hooks etc, but rather receive `loaderData` from `Route.ComponentProps`
+- Route meta functions can access `loaderData` through `Route.MetaArgs`. They should not invoke server functions.
 - We are not using file-based routing, add all new routes to `routes.ts`
 
 ## Structure
